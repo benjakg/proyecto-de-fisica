@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Pagina principal</title>
+  <style>
+    body {
+      font-family: Arial, Georgia, 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(150, 178, 204);
+    }
+    
+    .header {
+      background-image:url(../images/rayos.jpeg);
+      background-size: cover;
+      background-position: center;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin-top: 0;
+      font-size: 36px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+    }
+    
+    .box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 200px;
+      height: 50px;
+      margin: 20px;
+      padding: 20px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      background-image: url("../images/rao.jpeg");
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .box a {
+      text-decoration: underline;
+      font-weight: bold;
+      color: #000000;
+    }
+    
+    .back-link {
+      margin-bottom: 20px;
+    }
+    
+    .back-link::before {
+      content: "←";
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Objetivo</h1>
+  </div>
+  <div class="container">
+    <div class="box">
+    <a class="back-link" href="../pagina principal/index.html"><b>Volver a la página principal</b></a>
+    </div>
+  </div>
+</body>
+</html>
