@@ -1,0 +1,11 @@
+gitVersionamiento 
+git init esto genera una carpeta oculta que guarda las conf
+	
+3 estados
+working directory marca en rojo los archivos no almacenadis
+git status 
+git add . genera un versionamiento de todos los archivos de la carpeta	
+git commit -m "Cambios de version"
+git config --global user.name "Benjakg"
+git config --global user.email "benjamine42689@gmail.com"
+copiar el link de git hub y en el bash poner git clone seguido del likn
